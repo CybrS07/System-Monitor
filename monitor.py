@@ -15,7 +15,7 @@ from firebase_admin import credentials, db
 # ============================================================================
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-JSON_PATH = os.path.join(BASE_DIR, "sys-monitor.json")
+JSON_PATH = os.path.join(BASE_DIR, " ") #system secret.json file path
 
 if not os.path.exists(JSON_PATH):
     print(f"❌ ERROR: File '{JSON_PATH}' not found.")
@@ -26,7 +26,7 @@ try:
     firebase_admin.initialize_app(
         cred,
         {
-            "databaseURL": "https://sys-monitor-c1c77-default-rtdb.asia-southeast1.firebasedatabase.app"
+            " " #realtime database link
         },
     )
     ref = db.reference("/live_stats")
