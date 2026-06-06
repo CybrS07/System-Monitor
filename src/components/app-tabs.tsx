@@ -104,7 +104,7 @@ const screenWidth = Dimensions.get('window').width;
 
 const firebaseConfig = {
     databaseURL:
-        'https://sys-monitor-c1c77-default-rtdb.asia-southeast1.firebasedatabase.app',
+        ' ', //add realtime database link here
 };
 
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
