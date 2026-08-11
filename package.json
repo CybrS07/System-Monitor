@@ -15,7 +15,7 @@
     "@react-navigation/elements": "^2.9.10",
     "@react-navigation/material-top-tabs": "^7.4.27",
     "@react-navigation/native": "^7.2.4",
-    "expo": "~55.0.24",
+    "expo": "~55.0.28",
     "expo-constants": "~55.0.16",
     "expo-device": "~55.0.17",
     "expo-font": "~55.0.7",
